@@ -1,9 +1,9 @@
 # TXF Day-Trading Machine Learning Stategy
 ## Strategy Introduction
-Data: TXF market price/volume data with 5mins frequency
-Model Input: price/volume features (including features after feature interaction)
-Model: LSTM model with time windows = 10
-Model Output: a float between 0 and 1
+Data: TXF market price/volume data with 5mins frequency  
+Model Input: price/volume features (including features after feature interaction)  
+Model: LSTM model with time windows = 10  
+Model Output: a float between 0 and 1  
 Trading Signal:
 - mean = mean of all model output
 - stdev = standard deviation of all model output
